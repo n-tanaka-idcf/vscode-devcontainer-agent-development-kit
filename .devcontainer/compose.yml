@@ -1,0 +1,14 @@
+---
+services:
+  agent:
+    build:
+      context: agent/
+      dockerfile: Dockerfile
+      args:
+        - UID
+        - GID
+    tty: true
+    stdin_open: true
+    restart: always
+    volumes:
+      - ..:/workspace
