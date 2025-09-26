@@ -1,0 +1,17 @@
+{
+    "folders": [
+        {
+            "name": "project_root",
+            "path": "."
+        },
+        {
+            "name": "agent",
+            "path": "./agent"
+        }
+    ],
+    "settings": {
+        "files.exclude": {
+            "agent": true
+        }
+    }
+}
