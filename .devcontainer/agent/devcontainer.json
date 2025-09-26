@@ -40,8 +40,8 @@
                 "editor.formatOnSave": true,
                 // Python
                 // TODO: とちらか一つで良いきがするので要調査
-                "python.defaultInterpreterPath": "/app/.venv/bin/python",
-                "python.venvPath": "/app/.venv",
+                "python.defaultInterpreterPath": "/workspace/${containerEnv:DEVCONTAINER_NAME}/.venv/bin/python",
+                "python.venvPath": "/workspace/${containerEnv:DEVCONTAINER_NAME}/.venv",
                 "python.languageServer": "Pylance",
                 "python.analysis.diagnosticMode": "workspace",
                 "python.analysis.extraPaths": [],
